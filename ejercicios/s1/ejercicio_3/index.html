@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicios HTML</title>
+</head>
+<body>
+
+<!-- 1. Mi primera página HTML -->
+<h1>Hola Mundo</h1>
+<p>Esta es mi primera página en HTML.</p>
+
+<!-- 2. Listas -->
+<h2>Frutas favoritas</h2>
+<ul>
+    <li>Manzana</li>
+    <li>Banano</li>
+    <li>Mango</li>
+</ul>
+
+<h2>Pasos para preparar una taza de café</h2>
+<ol>
+    <li>Hervir agua</li>
+    <li>Agregar café al filtro</li>
+    <li>Verter el agua</li>
+</ol>
+
+<!-- 3. Enlaces -->
+<h2>Enlaces</h2>
+<a href="https://www.google.com" target="_blank">Ir a Google</a><br>
+<a href="contacto.html">Página de Contacto</a><br>
+<a href="https://github.com"><img src="Assets/img_1.jpg" alt="GitHub" width="30"></a>
+
+<!-- 4. Imagen -->
+<h2>Imagen desde Internet</h2>
+<img src="https://via.placeholder.com/150" alt="Imagen desde Internet">
+
+<!-- 5. Video -->
+<h2>Video local</h2>
+<video controls width="320">
+    <source src="Assets/video_1.mp4" type="video/mp4">
+    Tu navegador no soporta la etiqueta de video.
+</video>
+
+<h2>Video de YouTube</h2>
+<iframe width="320" height="240" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+
+<!-- 6. Tabla -->
+<h2>Tabla de Datos</h2>
+<table border="1">
+    <tr><th>Nombre</th><th>Edad</th><th>Ciudad</th></tr>
+    <tr><td>Juan</td><td>25</td><td>Bogotá</td></tr>
+    <tr><td>Ana</td><td>30</td><td>Medellín</td></tr>
+    <tr><td>Pedro</td><td>28</td><td>Cali</td></tr>
+</table>
+
+<!-- 7. Navegación -->
+<h2>Menú de navegación</h2>
+<nav>
+    <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Acerca de</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+</nav>
+
+<!-- 8. Formulario de Contacto -->
+<h2>Formulario de Contacto</h2>
+<form>
+    Nombre: <input type="text" name="nombre"><br>
+    Correo: <input type="email" name="correo"><br>
+    Mensaje:<br>
+    <textarea name="mensaje"></textarea><br>
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- 9. Formulario con varios campos -->
+<h2>Formulario Completo</h2>
+<form>
+    Nombre: <input type="text" name="nombre"><br>
+    Correo: <input type="email" name="correo"><br>
+    Contraseña: <input type="password" name="password"><br>
+    Edad: <input type="number" name="edad"><br>
+    Fecha de nacimiento: <input type="date" name="nacimiento"><br>
+    Sexo: 
+    <input type="radio" name="sexo" value="masculino"> Masculino
+    <input type="radio" name="sexo" value="femenino"> Femenino<br>
+    Ciudad:
+    <select name="ciudad">
+        <option>Medellín</option>
+        <option>Bogotá</option>
+        <option>Cali</option>
+    </select><br>
+    <input type="checkbox" name="terminos"> Acepto los términos<br>
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- 10. Página de perfil personal -->
+<h2>Perfil Personal</h2>
+<img src="Assets/img_2.jpg" alt="Perfil" width="100"><br>
+<p>Soy un apasionado por la tecnología y la creatividad.</p>
+<ul>
+    <li>Cantar</li>
+    <li>Montar bici</li>
+    <li>Cocinar</li>
+</ul>
+<iframe width="320" height="240" src="https://www.youtube.com/embed/oHg5SJYRHA0" frameborder="0" allowfullscreen></iframe>
+<table border="1">
+    <tr><th>Red Social</th><th>Enlace</th></tr>
+    <tr><td>Instagram</td><td><a href="#">@usuario</a></td></tr>
+    <tr><td>Twitter</td><td><a href="#">@usuario</a></td></tr>
+</table>
+
+<!-- 11. Formulario con validación básica -->
+<h2>Formulario con Validación</h2>
+<form>
+    Usuario: <input type="text" name="usuario" maxlength="12" pattern="[A-Za-z0-9]+" required><br>
+    Contraseña: <input type="password" name="clave" required><br>
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- 12. Página de productos -->
+<h2>Productos</h2>
+<table border="1">
+    <tr><th>Producto</th><th>Precio</th><th>Imagen</th><th>Acción</th></tr>
+    <tr><td>Producto A</td><td>$10</td><td><img src="Assets/img_3.jpg" width="50"></td><td><button>Comprar</button></td></tr>
+    <tr><td>Producto B</td><td>$20</td><td><img src="Assets/img_4.jpg" width="50"></td><td><button>Comprar</button></td></tr>
+</table>
+
+</body>
+</html>
