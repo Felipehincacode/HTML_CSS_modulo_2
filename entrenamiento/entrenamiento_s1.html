@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
 </head>
 <body>
     <h1>Felipe Hincapié [Developer Riwi]</h1>
+    <nav>
+        <a href="#about-me">About me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">contact</a>
+    </nav>
     <section>
         <h2>Sobre mí</h2>
         <p>Me gusta programar, montar bicicleta y aprender de todo un poco</p>
@@ -34,7 +44,35 @@
         <p>Es un videoq ue hice en la linea de enfasis de montaje</p>
         <a href="https://youtu.be/yvxb4sn0EnU?feature=shared">link</a>
     </section>
-    <!---Crea una sección <section> con un título <h2> para tus proyectos. Dentro, añade un título
-<h3> y una breve descripción para cada uno-->
+    <section>
+        <img src="/sources/gaia.png" alt="foto de mi perrita" width="200px">
+    </section>
+    <section>
+        <table>
+            <tr>
+                <td>lunes</td>
+                <td>Martes</td>
+                <td>Miércoles</td>
+                <td>Jueves</td>
+                <td>viernes</td>
+            </tr>
+            <tr>
+                <td>pollo</td>
+                <td>carne</td>
+                <td>salpicón</td>
+                <td>chicacharrón</td>
+                <td>minisigui</td>
+            </tr>
+        </table>
+    </section>
+    <form action="/send" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="4" required></textarea>
+    </form>
+    <footer><p>mis redes <a href="https://www.instagram.com/caracol.aventurero/">instagram</a></p></footer>
 </body>
 </html>         
