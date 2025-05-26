@@ -1,0 +1,68 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    }
+   
+
+.tarjeta{
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    width: 50%;
+    box-shadow: 5px 10px #888888  
+    }
+
+.descripcion{
+    color: aliceblue;
+
+}
+    
+.galeria{
+    background-color: green;
+    width: 500px;
+    height: 500px;   
+    justify-content: left;
+    align-items: left;     
+}
+.galeria_secundaria {
+ width: auto;
+ 
+ /* margin-left: -90px; */
+ 
+ 
+
+}
+
+.galeria_principal img{
+    width: 300px;
+    margin: 30px;
+    border-radius: 20px;
+
+    
+    
+}
+
+.galeria_secundaria img{
+    border-radius: 20px;   
+    margin: 10px;
+    display:flex;
+    width: 50px;
+    
+}
+
+.texto {
+    padding: -80px;
+    color: azure;
+
+}
+
+
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 50px;
+
+}
